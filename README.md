@@ -4,7 +4,7 @@
 
 ```bash
 touch shared/secret.txt
-vi shared/secret.txt # シークレットキーを入力 (改行コードは除く)
+vi shared/secret.txt # シークレットキーを入力 (末尾の改行コードはあってもなくても良い)
 docker-compose build
 ```
 
