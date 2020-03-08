@@ -13,3 +13,8 @@ docker-compose build
 ```bash
 docker-compose run --rm auth sh auth_command
 ```
+
+もしくは
+```bash
+./scripts/exec.sh
+```
