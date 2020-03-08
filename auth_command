@@ -1,1 +1,2 @@
 cat /app_root/shared/secret.txt | xargs oathtool --totp --base32
+echo "現在: `date +%S`秒"
