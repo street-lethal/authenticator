@@ -3,7 +3,7 @@
 ## 準備
 
 ```bash
-touch shared/secret.txt
+cp shared/secret.txt.sample shared/secret.txt
 vi shared/secret.txt # シークレットキーを入力 (末尾の改行コードはあってもなくても良い)
 docker-compose build
 ```
